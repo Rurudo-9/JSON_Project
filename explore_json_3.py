@@ -47,7 +47,7 @@ data = [{
             'colorbar':{"title":"Magnitude"}
     }
 }]
-
+ 
 
 my_layout = Layout(title="Global Earthquakes")
 

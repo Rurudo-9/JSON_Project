@@ -26,7 +26,7 @@ for eq in list_of_eqs:
 print(mags[:10])
 print(lons[:10])
 print(lats[:10])  # show the first 10
-'''
+
 # print(eq_data['features'][0]['properties']['mag'])
 
 from plotly.graph_objs import Scattergeo, Layout
@@ -40,4 +40,3 @@ my_layout = Layout(title="Global Earthquakes")
 fig = {"data": data, "layout": my_layout}
 
 offline.plot(fig, filename="global_earthquakes.html")
-'''

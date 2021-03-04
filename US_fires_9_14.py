@@ -18,7 +18,7 @@ for fire in fire_data:
         lats.append(lat)
         brights.append(bright)
     
-
+  
 
 print(lons[:10])
 print(lats[:10])  # show the first 10
